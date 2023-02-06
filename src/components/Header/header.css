@@ -1,0 +1,31 @@
+.header_container{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 10px;
+  padding-top: 1rem;
+  justify-content: center;
+  gap: 157px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.header_logo{
+  margin-left: 1.5rem;
+}
+
+@media(min-width: 769px){
+  .header_container{
+    width: 100vw;
+    gap: 700px;
+   position: fixed;
+   top: 0;
+  }
+
+  .main_container{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

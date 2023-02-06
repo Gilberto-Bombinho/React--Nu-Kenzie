@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.form_container{
+  width: 100%;
+  max-width: 363px;
+  height: 351px;
+  border: solid 1px #E9ECEF;
+  font-family: 'Inter';
+  border-radius: 4px;
+}
+
+.value_container{
+  display: flex;
+}
+
+.description{
+  color: #212529;
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  margin-left: 1rem;
+}
+
+.input_description{
+  width: 300px;
+  height: 53px;
+  background-color: #E9ECEF;
+  color:#868E96;
+  border-radius: 8px;
+  padding: 0px 16px 0px 16px;
+  border: none;
+  font-size: 16px;
+  margin-left: 1rem;
+}
+
+.example{
+  color: #868E96;
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  margin-left: 1rem;
+}
+
+.input_value{
+  width: 128px;
+  height: 48px;
+  color: #868E96; 
+  background-color: #E9ECEF;
+  border-radius: 8px;
+  padding: 0px 16px 0px 16px;
+  margin-left: 1rem;
+  border: none;
+}
+
+.input_select{
+  width: 150px;
+  height: 48px;
+  color: #868E96; 
+  background-color: #E9ECEF;
+  border-radius: 8px;
+  padding: 0px 16px 0px 16px;
+  margin-left: 1rem;
+  border: none;
+}
+
+.insert_button{
+  margin-top: 2rem;
+  width: 325px;
+  height: 48px;
+  border-radius: 8px;
+  padding: 13px 20px 13px 20px;
+  color: #FFFFFF;
+  background-color: #FD377E;
+  margin-left: 1rem;
+}
+
+.insert_button:hover{
+  margin-top: 2rem;
+  width: 325px;
+  height: 48px;
+  border-radius: 8px;
+  padding: 13px 20px 13px 20px;
+  color: #FFFFFF;
+  background-color: #d22061;
+  cursor: pointer;
+}
